@@ -4,6 +4,7 @@ $result = '';
 $result = mysqli_query($bdd, "SELECT * FROM accueil");
 ?>
 
+
 <?php include("header.php") ?>
 <div class="container-fluid">
     <div class="d-sm-flex justify-content-between align-items-center mb-4">
